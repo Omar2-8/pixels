@@ -1,0 +1,154 @@
+#sign-page{
+margin:0;
+padding:0;
+background-image:url(../imgs/LOGOS/Background/wallhaven-9mmqzx_3840x2160.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+font-family:Poppins;
+background-attachment:fixed;
+
+}
+/*--------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #242424;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #471111;
+  background: #471111;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*----------------------------------------------------------------------*/
+.a{
+padding:0;
+margin:0;
+width:300px;
+height:350px;
+position:absolute;
+top:25%;
+left:40%;
+padding-left:60px; padding-top:60px; padding-right:30px;
+background-position: center;
+box-shadow: 8px 8px 50px #000;
+}
+#sign-logo{
+font-weight:bold;
+font-size:45px;
+color:#fff;
+text-align:center;
+font-family:courgette;
+margin-top:200px;
+letter-spacing: 10px;
+
+}
+.a h2{
+margin:0;
+padding:0;
+font-weight:bold;
+font-size:30px;
+color:#fff;
+text-align:center;
+margin-bottom:10%;
+margin-right:15%;
+font-family:courgette;
+}
+.a input{
+width:100%;
+margin-bottom:20px;
+}
+.in{
+border:none;
+border-bottom: 1px solid #ddd;
+background:transparent;
+font-size:16px;
+color:#ccc;
+outline:none;
+padding-right:-20px;
+}
+.login:hover{
+color:#222;
+font-weight:bold;
+background-color:white;
+}
+.aLINK{
+font-size:20px;
+text-decoration:none;
+color:#ccc;
+margin-bottom:30px;
+}
+.aLINK:hover{
+color:#fff;
+}
+/******************************************/
+.dawn{
+max-width:1920px;
+width: 1700px;
+height:230px;
+background-color:grey; 
+position:absolute;
+top:80%;
+
+
+}
+.dawn,em{font-weight:bold; font-size:15px;}
+
+.PIXEL{position:absolute; font-weight:bold;font-size:45px;list-style-type:none; color:#fff;
+text-align:center;font-family:courgette;margin-top:75px; margin-left:10px;letter-spacing: 10px;}
+
+.INFORMATION{position:absolute;margin-left:15%; font-weight:400;list-style-type:none; font-family:Poppins;}
+.COUSTOMER{position:absolute;margin-left:35%;font-weight:400;font-family:Poppins;}
+.EXTRA{position:absolute;margin-left:55%;font-weight:400;font-family:Poppins;}
+.ACCOUNT{position:absolute;margin-left:75%;font-weight:400;font-family:Poppins;}
+.about{text-decoration:none;color:black;}
+.about:hover{color:#fff;}
+.dawn ul{ list-style-type:none; margin-top:-5px;}
+.dawn nav ol{text-decoration:none ;display:none ;; list-style-type:none;}
+.dawn nav:hover ol{display:block;}
+.dawn .abo {text-decoration:none;color:black;}
+.dawn .abo:hover{color:#fff;}
+
+
+.da{
+width: 1700px;
+height:50px;
+background-color:#222222; 
+position:absolute;
+top:100%;;color:grey;
+text-align:center;
+}
+.da em{color:white;}
+
